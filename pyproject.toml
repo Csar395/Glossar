@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "glossar"
+version = "0.1.0"
+description = "CLI glossary manager"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["glossar"]
+
+[project.scripts]
+gloss = "glossar.cli:main"
+glossar = "glossar.cli:main"

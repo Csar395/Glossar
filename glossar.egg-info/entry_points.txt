@@ -1,0 +1,3 @@
+[console_scripts]
+gloss = glossar.cli:main
+glossar = glossar.cli:main

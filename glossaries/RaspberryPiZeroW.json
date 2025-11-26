@@ -1,0 +1,254 @@
+[
+  {
+    "term": "Pin 1",
+    "definition": "3.3V Power. Fester 3.3V-Ausgang zur Versorgung von Sensoren. Kein GPIO.",
+    "category": "Pin",
+    "tags": ["Power", "3.3V"]
+  },
+  {
+    "term": "Pin 2",
+    "definition": "5V Power. Fester 5V-Ausgang direkt von der USB-Versorgung. Kein GPIO.",
+    "category": "Pin",
+    "tags": ["Power", "5V"]
+  },
+  {
+    "term": "Pin 3",
+    "definition": "GPIO2 (BCM 2). I2C SDA1. Standard-SDA-Leitung für I²C-Geräte.",
+    "category": "Pin",
+    "tags": ["GPIO", "I2C", "SDA"]
+  },
+  {
+    "term": "Pin 4",
+    "definition": "5V Power. Zweiter 5V-Ausgang. Kein GPIO.",
+    "category": "Pin",
+    "tags": ["Power", "5V"]
+  },
+  {
+    "term": "Pin 5",
+    "definition": "GPIO3 (BCM 3). I2C SCL1. Standard-SCL-Leitung für I²C-Geräte.",
+    "category": "Pin",
+    "tags": ["GPIO", "I2C", "SCL"]
+  },
+  {
+    "term": "Pin 6",
+    "definition": "GND (Ground). Masseanschluss.",
+    "category": "Pin",
+    "tags": ["GND"]
+  },
+  {
+    "term": "Pin 7",
+    "definition": "GPIO4 (BCM 4). Universeller GPIO. Häufig für einfache Ein-/Ausgaben.",
+    "category": "Pin",
+    "tags": ["GPIO"]
+  },
+  {
+    "term": "Pin 8",
+    "definition": "GPIO14 (BCM 14). UART0 TX (Transmit). Senden über die serielle Schnittstelle.",
+    "category": "Pin",
+    "tags": ["GPIO", "UART", "TX"]
+  },
+  {
+    "term": "Pin 9",
+    "definition": "GND (Ground). Masseanschluss.",
+    "category": "Pin",
+    "tags": ["GND"]
+  },
+  {
+    "term": "Pin 10",
+    "definition": "GPIO15 (BCM 15). UART0 RX (Receive). Empfangen über die serielle Schnittstelle.",
+    "category": "Pin",
+    "tags": ["GPIO", "UART", "RX"]
+  },
+  {
+    "term": "Pin 11",
+    "definition": "GPIO17 (BCM 17). Universeller GPIO.",
+    "category": "Pin",
+    "tags": ["GPIO"]
+  },
+  {
+    "term": "Pin 12",
+    "definition": "GPIO18 (BCM 18). Unterstützt Hardware-PWM (PWM0) und PCM/I2S Audio.",
+    "category": "Pin",
+    "tags": ["GPIO", "PWM", "Audio"]
+  },
+  {
+    "term": "Pin 13",
+    "definition": "GPIO27 (BCM 27). Universeller GPIO.",
+    "category": "Pin",
+    "tags": ["GPIO"]
+  },
+  {
+    "term": "Pin 14",
+    "definition": "GND (Ground). Masseanschluss.",
+    "category": "Pin",
+    "tags": ["GND"]
+  },
+  {
+    "term": "Pin 15",
+    "definition": "GPIO22 (BCM 22). Universeller GPIO.",
+    "category": "Pin",
+    "tags": ["GPIO"]
+  },
+  {
+    "term": "Pin 16",
+    "definition": "GPIO23 (BCM 23). Universeller GPIO.",
+    "category": "Pin",
+    "tags": ["GPIO"]
+  },
+  {
+    "term": "Pin 17",
+    "definition": "3.3V Power. Fester 3.3V-Ausgang. Kein GPIO.",
+    "category": "Pin",
+    "tags": ["Power", "3.3V"]
+  },
+  {
+    "term": "Pin 18",
+    "definition": "GPIO24 (BCM 24). Universeller GPIO.",
+    "category": "Pin",
+    "tags": ["GPIO"]
+  },
+  {
+    "term": "Pin 19",
+    "definition": "GPIO10 (BCM 10). SPI0 MOSI (Master Out Slave In). Datenausgabe an SPI-Geräte.",
+    "category": "Pin",
+    "tags": ["GPIO", "SPI", "MOSI"]
+  },
+  {
+    "term": "Pin 20",
+    "definition": "GND (Ground). Masseanschluss.",
+    "category": "Pin",
+    "tags": ["GND"]
+  },
+  {
+    "term": "Pin 21",
+    "definition": "GPIO9 (BCM 9). SPI0 MISO (Master In Slave Out). Dateneingang von SPI-Geräten.",
+    "category": "Pin",
+    "tags": ["GPIO", "SPI", "MISO"]
+  },
+  {
+    "term": "Pin 22",
+    "definition": "GPIO25 (BCM 25). Universeller GPIO.",
+    "category": "Pin",
+    "tags": ["GPIO"]
+  },
+  {
+    "term": "Pin 23",
+    "definition": "GPIO11 (BCM 11). SPI0 SCLK (Clock). Takt für SPI-Bus.",
+    "category": "Pin",
+    "tags": ["GPIO", "SPI", "SCLK"]
+  },
+  {
+    "term": "Pin 24",
+    "definition": "GPIO8 (BCM 8). SPI0 CE0 (Chip Select 0).",
+    "category": "Pin",
+    "tags": ["GPIO", "SPI", "CE0"]
+  },
+  {
+    "term": "Pin 25",
+    "definition": "GND (Ground). Masseanschluss.",
+    "category": "Pin",
+    "tags": ["GND"]
+  },
+  {
+    "term": "Pin 26",
+    "definition": "GPIO7 (BCM 7). SPI0 CE1 (Chip Select 1).",
+    "category": "Pin",
+    "tags": ["GPIO", "SPI", "CE1"]
+  },
+  {
+    "term": "Pin 27",
+    "definition": "ID_SD. Spezieller I2C-Pin für HAT-EEPROMs. Nicht für normale GPIO-Zwecke gedacht.",
+    "category": "Pin",
+    "tags": ["I2C", "EEPROM"]
+  },
+  {
+    "term": "Pin 28",
+    "definition": "ID_SC. Spezieller I2C-Pin für HAT-EEPROMs. Nicht für normale GPIO-Zwecke.",
+    "category": "Pin",
+    "tags": ["I2C", "EEPROM"]
+  },
+  {
+    "term": "Pin 29",
+    "definition": "GPIO5 (BCM 5). Universeller GPIO.",
+    "category": "Pin",
+    "tags": ["GPIO"]
+  },
+  {
+    "term": "Pin 30",
+    "definition": "GND (Ground). Masseanschluss.",
+    "category": "Pin",
+    "tags": ["GND"]
+  },
+  {
+    "term": "Pin 31",
+    "definition": "GPIO6 (BCM 6). Universeller GPIO.",
+    "category": "Pin",
+    "tags": ["GPIO"]
+  },
+  {
+    "term": "Pin 32",
+    "definition": "GPIO12 (BCM 12). Unterstützt Hardware-PWM (PWM0). Auch PCM/I2S möglich.",
+    "category": "Pin",
+    "tags": ["GPIO", "PWM", "Audio"]
+  },
+  {
+    "term": "Pin 33",
+    "definition": "GPIO13 (BCM 13). Unterstützt Hardware-PWM (PWM1). Auch PCM/I2S möglich.",
+    "category": "Pin",
+    "tags": ["GPIO", "PWM", "Audio"]
+  },
+  {
+    "term": "Pin 34",
+    "definition": "GND (Ground). Masseanschluss.",
+    "category": "Pin",
+    "tags": ["GND"]
+  },
+  {
+    "term": "Pin 35",
+    "definition": "GPIO19 (BCM 19). PCM/I2S Frame Sync oder universeller GPIO.",
+    "category": "Pin",
+    "tags": ["GPIO", "Audio"]
+  },
+  {
+    "term": "Pin 36",
+    "definition": "GPIO16 (BCM 16). Universeller GPIO.",
+    "category": "Pin",
+    "tags": ["GPIO"]
+  },
+  {
+    "term": "Pin 37",
+    "definition": "GPIO26 (BCM 26). Universeller GPIO.",
+    "category": "Pin",
+    "tags": ["GPIO"]
+  },
+  {
+    "term": "Pin 38",
+    "definition": "GPIO20 (BCM 20). PCM/I2S Data-In oder universeller GPIO.",
+    "category": "Pin",
+    "tags": ["GPIO", "Audio"]
+  },
+  {
+    "term": "Pin 39",
+    "definition": "GND (Ground). Masseanschluss.",
+    "category": "Pin",
+    "tags": ["GND"]
+  },
+  {
+    "term": "Pin 40",
+    "definition": "GPIO21 (BCM 21). PCM/I2S Data-Out oder universeller GPIO.",
+    "category": "Pin",
+    "tags": ["GPIO", "Audio"]
+  },
+  {
+    "term": "BCM2835",
+    "definition": "Broadcom BCM2835 SoC des Raspberry Pi Zero W: ARM11 CPU, VideoCore IV GPU, integrierter GPIO-Controller.",
+    "category": "Chip",
+    "tags": ["SoC", "CPU", "GPU"]
+  },
+  {
+    "term": "CYW43438",
+    "definition": "Cypress CYW43438 Wireless-Chip. Verantwortlich für WLAN (802.11 b/g/n) und Bluetooth im Pi Zero W.",
+    "category": "Chip",
+    "tags": ["Wireless", "WiFi", "Bluetooth"]
+  }
+]
