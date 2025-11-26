@@ -1,2 +1,4 @@
 # Ignore glossary folder
 glossaries/
+__pycache__/
+.venv/
