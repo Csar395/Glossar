@@ -2,7 +2,7 @@ import json
 from copyreg import remove_extension
 from pathlib import Path
 from typing import List, Optional
-from .glossaryEntry import GlossaryEntry
+from glossar.glossaryEntry import GlossaryEntry
 
 
 class Glossary:
@@ -94,7 +94,6 @@ class Glossary:
                     if ts in entry.tags:
                         entry.tags.remove(ts)
         return True
-
 
     def load_from_file(self, filepath: str) -> None:
         path = Path(filepath)
