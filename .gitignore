@@ -2,3 +2,4 @@
 glossaries/
 __pycache__/
 .venv/
+glossar.egg-info
