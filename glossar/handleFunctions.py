@@ -1,7 +1,7 @@
 import argparse
 import sys
 
-from glossar.main import GLOSSARY_DIR, CURRENT_META_FILE
+from glossar.config import GLOSSARY_DIR, CURRENT_META_FILE
 from glossar.helpFunctions import print_single_entry_as_table
 from glossar.pathFunctions import get_active_filepath, set_active_filepath
 from glossar.glossary import Glossary

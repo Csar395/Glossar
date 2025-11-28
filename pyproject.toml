@@ -15,5 +15,5 @@ where = ["."]
 include = ["glossar"]
 
 [project.scripts]
-gloss = "glossar.cli:main"
-glossar = "glossar.cli:main"
+gloss = "glossar.main:main"
+glossar = "glossar.main:main"

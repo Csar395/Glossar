@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from glossar.main import CURRENT_META_FILE
+from glossar.config import CURRENT_META_FILE
 
 
 def get_active_filepath() -> Path:

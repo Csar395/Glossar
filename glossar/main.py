@@ -1,21 +1,16 @@
 import difflib
-from pathlib import Path
 import sys
 
+from glossar.config import GLOSSARY_DIR
 from glossar.helpFunctions import print_single_entry_as_table
 from glossar.parser import build_parser
 from glossar.pathFunctions import get_active_filepath
 from glossar.glossary import Glossary
 
-BASE_DIR = Path(__file__).resolve().parent.parent
-
-GLOSSARY_DIR = BASE_DIR / "glossaries"
-GLOSSARY_DIR.mkdir(exist_ok=True)
-
-CURRENT_META_FILE = BASE_DIR / ".current_glossary"
-
 
 def main():
+    GLOSSARY_DIR.mkdir(exist_ok=True)
+
     commands = {"init", "add", "list", "checkout", "list-glossaries", "edit", "help", "remove"}
 
     argv = sys.argv[1:]
