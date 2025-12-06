@@ -1,3 +1,0 @@
-[console_scripts]
-gloss = glossar.main:main
-glossar = glossar.main:main

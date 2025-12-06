@@ -1,9 +1,0 @@
-pyproject.toml
-glossar/cli.py
-glossar/glossary.py
-glossar/glossaryEntry.py
-glossar.egg-info/PKG-INFO
-glossar.egg-info/SOURCES.txt
-glossar.egg-info/dependency_links.txt
-glossar.egg-info/entry_points.txt
-glossar.egg-info/top_level.txt
